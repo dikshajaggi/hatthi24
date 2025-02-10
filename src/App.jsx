@@ -1,8 +1,5 @@
 import './App.css'
-import React from 'react'
-import Footer from './components/Footer'
-import FloatingHearts from './components/FloatingHearts'
-import { Link, Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 
 const App = () => {
   return (

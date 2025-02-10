@@ -1,6 +1,6 @@
 import "./styles.css"
 
-const FloatingHearts = () => {
+const FloatingEle = () => {
     return (
         <div className="fixed inset-0 overflow-hidden pointer-events-none">
             {Array.from({ length: 20 }).map((_, i) => (
@@ -13,11 +13,11 @@ const FloatingHearts = () => {
                         animationDelay: `${Math.random() * 2}s`,
                     }}
                 >
-                    ❤️
+                    🐘💕
                 </div>
             ))}
         </div>
     );
 };
 
-export default FloatingHearts;
+export default FloatingEle;
