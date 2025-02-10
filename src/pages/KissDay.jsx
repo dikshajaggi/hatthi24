@@ -1,0 +1,11 @@
+import React from 'react'
+
+const KissDay = () => {
+    return (
+        <div>
+
+        </div>
+    )
+}
+
+export default KissDay
